@@ -9,9 +9,23 @@
       font-family: Comic Sans MS, cursive;
       font-size: xx-large;
     }
-    div {
+    .main {
       margin-left: 60%;
       margin-top: 10%;
+    }
+    .next {
+      left: 0;
+      bottom: 0;
+      position: fixed;
+      padding-left: 3%;
+      padding-bottom: 3%;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      border-bottom: thin dashed black;
     }
   </style>
 </head>
@@ -24,9 +38,12 @@ catch(e) { }
 </script></div>
 <noscript><div><img src="//mc.yandex.ru/watch/6333451" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-  <div>
+  <div class="main">
     &mdash; Ну? <br/>
-    &mdash; Вже!
+    &mdash; Вже! <br/>
+  </div>
+  <div class="next">
+    <img src="geek.png" />
   </div>
 </body>
 </html>
